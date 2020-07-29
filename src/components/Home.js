@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import AddUser from './AddUser'
 import EditUser from './EditUser'
+import { Redirect } from 'react-router-dom'
 
 
 function Home() {
@@ -24,6 +25,7 @@ function Home() {
 
 const addUser=()=>{
     console.log('useradd')
+    
     
 }
 const removeUser=(id)=>{

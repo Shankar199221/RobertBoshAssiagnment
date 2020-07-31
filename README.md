@@ -7,11 +7,11 @@ In the project directory, you can run:
 ### `npm run start`
 To start the Development server in localhost:3000
 
-## `HOOKS`
-
+### `HOOKS`
+(Functional components only)
 Completly use React-Hooks For this poject
 
-## `REDUX`
+### `REDUX`
 
  Using Redux for StateMangement 
 
@@ -22,7 +22,9 @@ Completly use React-Hooks For this poject
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+### `React Router `
 
+Navigation to different components.
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 

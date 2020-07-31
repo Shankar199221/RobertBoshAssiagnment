@@ -1,0 +1,12 @@
+.sideNavbar {
+    display: flex;
+    flex-direction: column;
+    
+}
+.sideNavbar__link {
+    padding: 2rem 2rem;
+    margin-bottom: 3rem;
+}
+.sideNavbar__link__1 {
+    background-color: rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,54 @@
+.useprofile { display: flex;
+height: 35rem;
+
+background-color: burlywood;
+
+}
+.avator {
+
+    border-radius: 40%;
+  }
+.useprofile__img {
+    margin: 3px;
+    padding: 2rem;
+    border: 3px solid black;
+   border-radius: 2rem;
+   flex:0.3;
+}
+.useprofile__form {
+    margin-top: 3rem;
+    margin-left: 10rem;
+    flex:0.7
+}
+.userlist {
+    border-bottom: 5px solid black;
+}
+.useprofile__form__input {
+    font-size: large;
+    margin-bottom: 2rem;
+    border: none;
+    padding: .8rem;
+    border-bottom: 2px solid black;
+    background-color: burlywood;
+}
+.useprofile__form__input:focus {
+    background-color:  burlywood;
+    outline: none;
+}
+
+.button {
+    color: whitesmoke;
+    border-radius: 7%;
+    border: none;
+    display: block;
+    background-color: blue;
+    padding: 0.8rem;
+    width: 10rem;
+}
+.MuiPaper-root {
+    padding: 8px;
+    color: rgba(0, 0, 0, 0.87);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #fff;
+    border: 5px solid black;
+}

@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+}
+.main__sidebar { 
+  background-color: gray;
+  flex:0.1;
+}
+.main__body {
+   background-color: lightgrey;
+   flex: 0.9;
+   
+}
+.main__body__h1 {
+    margin: 3rem 0 4rem 2rem;
+}
+.main__body__link {
+    display: inline-block;
+    margin-left: 3rem;
+    border: 3px solid black;
+}
+.main__body__table {
+   margin: 0 2rem 2rem 3rem;
+}
+.appbar {
+    background-color: blanchedalmond;
+}
+.MuiAppBar-root {
+    width: 19% !important;
+    background-color: gray !important;   
+}
+.MuiButtonBase-root:hover{
+    background-color: white !important;
+    color: black !important;
+    outline: none !important;
+    outline-offset: 2ch;
+}
+.MuiButtonBase-root{
+    border: none !important;
+}

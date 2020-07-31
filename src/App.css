@@ -1,0 +1,11 @@
+.main {
+    display: flex;
+}
+.main__sidebar {
+    background-color: gray;
+    flex:0.1;
+  }
+.main__body {
+    background-color: lightgrey;
+    flex: 0.9;   
+ }

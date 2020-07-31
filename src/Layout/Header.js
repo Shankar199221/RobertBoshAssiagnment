@@ -1,10 +1,18 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react'
+import './Header.css'
+import logo from './../Asserts/logo.png'
+import { useSelector } from 'react-redux'
+
 
 function Header() {
+
+    const data =useSelector(state =>state.getdata.userdata)
+  
     return (
         <div className="header">
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FA-classic-GhostScript-SVG-example_fig1_221609858&psig=AOvVaw3LQnSkfvGFAjcuDAg8lwrv&ust=1596086600228000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDbvI7c8eoCFQAAAAAdAAAAABAZ" alt="no-mage" />
-            <h1>USER MODEL</h1>
+            <img src={logo} alt="img" width="80px" height="50px"/>
+            <h1>{data ?(data.first_name):"Select User"}</h1>
         </div>
     )
 }
